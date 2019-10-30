@@ -1,5 +1,5 @@
 // Import MySQL connection.
-var connection = require("./connection");
+var connection = require("./promisify-mysql");
 
 function printQuestionMarks(num) {
   var arr = [];
